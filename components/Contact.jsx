@@ -20,9 +20,9 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-  const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
-  const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+  const templateId = process.env.NEXT_PUBLIC_EMAILJS_contact_form;
+  const publicKey = process.env.NEXT_PUBLIC_EMAILJS_ZqP0zYoCUhR83zVZF;
+  const serviceId = process.env.NEXT_PUBLIC_EMAILJS_contact_service;
 
   const handleChange = (e) => {
     setForm({
